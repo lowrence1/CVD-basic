@@ -310,7 +310,7 @@ border-radius:5rem;
     
     .btn.black{
         background:#222222;
-        color:#ffa700;
+        color:#ffffff;
         border:1px solid #222222;
     }
     
@@ -486,7 +486,7 @@ width :100%;
 }
 /*-------------CONTACT-------------*/
 .hm-contact{
-    padding:5rem 0;
+    padding:10rem 0;
     background:#ffa700;
 }
 .hm-contact .hm-contact__text{
@@ -497,6 +497,10 @@ width :100%;
     color: #222222;
     font-size :4rem;
     font-weight:600;
+    margin: 1rem;
+}
+.hm-contact .hm-contact__text p{
+    margin-bottom: 36px;
 }
 
 /*-------------FOOTER-------------*/
@@ -524,7 +528,7 @@ margin-left: 2rem;
 .footer .footer__text p{
     display:inline-block;
     font-size: 1.5rem;
-    margin-left: 2rem;
+    margin-bottom: 36px;
     text-align: center;
     }
     .footer .footer__text ul li{
@@ -703,4 +707,115 @@ width :100%;
     .abt-project img{
         width: 25rem;
     }
+}
+/*-------------Svc-BANNER--------------*/
+.svc-banner{
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+
+.svc-banner .svc-list{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    max-width: 140rem;
+    padding: 1.5rem;
+}
+
+
+.svc-banner .svc-banner__text h1{
+    color:#ffa700;
+    font-size:3rem;
+    font-weight:800;
+    line-height:1.1;
+}
+.svc-banner .svc-banner__text p{
+    margin:3rem 0;
+    text-align: justify;
+    max-width: 72rem;
+    
+}
+.svc-banner .svc-banner__text h2{
+    color: #ffa700;
+    font-size: 2rem;
+    font-weight: 1000;
+    
+}
+
+.svc-banner ul{
+    display: flex;
+    font-size: 5rem;
+}
+.svc-banner ul li a{
+    color: #ffa700;  
+}
+.svc-banner .svc-banner__wrapper ul{
+    align-items: center;
+  justify-content: center;
+}
+.svc-banner .svc-banner__wrapper:nth-child(2){
+    background: #222222;
+    color: #ffffff;
+    justify-content:space-between;
+   
+}
+.svc-banner .italic p{
+    font-style: italic;
+    margin-top: .2rem;
+}
+.svc-banner .svc-banner__wrapper:last-child{
+    margin-top: 2rem;
+}
+.svc-banner .svc-banner__wrapper:nth-child(2) img{
+    margin-top: 2rem;
+} 
+@media screen and (max-width:500px){
+    .svc-banner .kamote{
+        flex-direction:column-reverse;
+    }
+
+    .svc-banner .svc-banner__wrapper{
+        text-align: center;
+        flex-direction:column-reverse;
+        
+   
+    
+    }
+    .svc-banner .svc-banner__text h1{
+        font-size: 2rem;
+        margin-top: 2rem;
+        
+    }
+    .svc-banner .svc-banner__text p{
+        text-align: justify;
+    }
+    .svc-banner img{
+        width: 25rem;
+    }
+    .svc-banner .svc-banner__wrapper ul{
+        justify-content: center;
+        margin-left: 9rem;
+        justify-content: space-between;
+    }
+    .svc-banner .italic p{
+        font-style: italic;
+        margin-top: .2rem;
+        text-align: center;
+    }
+    .svc-banner .svc-banner__wrapper:nth-child(2) img{
+        order:1;
+        margin-top: 2rem;
+    } 
+    .svc-banner .svc-banner__wrapper ul{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        
+        
+    }
+    .svc-banner .svc-banner__wrapper:last-child{
+        margin-top: 2rem;
+}
 }
